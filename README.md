@@ -9,7 +9,7 @@ Readme for clean user profile
 	powershell.exe -ExecutionPolicy Bypass -File "C:\Temp\cleanprofile.ps1"
 	
 4. Admin can also download PSExec and run the PowerShell remotely from admin's Command Prompt using
-"C:\Tools\PSTools\PsExec.exe" \\JC0XXXX -s -d powershell.exe -ExecutionPolicy Bypass -File "C:\Temp\cleanprofile.ps1"
+"C:\Tools\PSTools\PsExec.exe" \\JC0XXXX -s powershell.exe -ExecutionPolicy Bypass -File "C:\Temp\cleanprofile.ps1"
 	- Assuming your PsExec.exe is downloaded into C:\Tools\PSTools folder
 	- Run cmd as admin in admin's computer
 	- \\JC0XXXX is the target computer's hostname
